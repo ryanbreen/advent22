@@ -52,7 +52,7 @@ mod tests {
     use common::{run_test_cases, TestCase};
 
     #[test]
-    fn test_day_03_part_a() {
+    fn test_day_04_part_a() {
         let test_cases = [
             TestCase::<i32>::new("file:inputs/part_a_1.txt", 2),
             TestCase::<i32>::new("file:inputs/part_a_2.txt", 483),
@@ -63,7 +63,7 @@ mod tests {
     }
 
     #[test]
-    fn test_day_03_part_b() {
+    fn test_day_04_part_b() {
         let test_cases = [
             TestCase::<i32>::new("file:inputs/part_a_1.txt", 4),
             TestCase::<i32>::new("file:inputs/part_a_2.txt", 874),
